@@ -1,0 +1,77 @@
+/* styles.css */
+
+:root {
+  --primary-color: #0c6dce; /* Deep Blue */
+  --secondary-color: #0074D9; /* Electric Blue */
+  --accent-color: #39FF14; /* Neon Green */
+  --text-color: #FFFFFF; /* White */
+}
+
+body {
+  font-family: 'Cambria', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: var(--text-color);
+}
+
+.hero-section {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+.hero-content {
+  color: white;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: #111111 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+
+.about-section,
+.projects-section,
+.images-section,
+.contact-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.project-card {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

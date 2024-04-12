@@ -1,0 +1,38 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent; /* Set background color to transparent */
+  padding: 20px;
+  z-index: 1000; /* Ensure the navbar stays above other content */
+  display: flex;
+  justify-content: space-between; /* Align items on each end */
+  align-items: center;
+}
+
+.navbar-items {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-item {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: Cambria;
+  margin-left: 20px; /* Add spacing between items */
+}
+
+.navbar-item:last-child {
+  margin-right: 50px; /* Push the last item to the right */
+}
+
+.navbar-item:hover {
+  color: #26f5f5;
+}
+
+.pdf-view {
+  margin-top: 60px; /* Add spacing below the navbar */
+}
